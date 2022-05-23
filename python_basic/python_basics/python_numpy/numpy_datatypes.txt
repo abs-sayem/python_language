@@ -1,0 +1,55 @@
+Numpy Datatypes:
+---------------
+	Datatype		Description				Value/Range
+	-------------		--------------------------		-----------------------------------------------
+	bool_			Boolean strored as a byte		True or False
+
+	int_			Default integer type			Same as C long. Normally, either int64 or int32
+	intc			Identical to int in C			Normally, int64 or int32
+	intp			Integer used for indexing		Same as C ssize_t. Either int64 or int32
+	int8			Byte					-128 to 127
+	int16			Integer					-32768 to 32767
+	int32			Integer					-2147483648 to 2147483647
+	int64			Integer					-9223372036854775808 to 9223372036854775807
+
+	unit8			Unsigned Integer			0 to 255
+	unit16			Unsigned Integer			0 to 65535
+	unit32			Unsigned Integer			0 to 4294967295
+	unit64			Unsigned Integer			0 to 18446744073709551615
+
+	float_			Shorthand for float64			
+	float16			Half precision float			sign bit, 5 bits exponent, 10 bits mantissa
+	float32			Single precision float			sign bit, 8 bits exponent, 23 bits mantissa
+	float64			Double precision float			sign bit, 11 bits exponent, 55 bits mantissa
+
+	complex_		Shorthand for complex128		
+	complex64		Complex Number				two 32-bit floats(real and imaginary components)
+	complex128		Complex Number				two 64-bit floats(real and imaginary components)
+
+For Example:
+-----------
+	>> import numpy as np
+
+	   Statements						Output
+	   ---------------------------------------------	------------------------
+	>> a = np.float32(2.0)					2.0
+
+	>> b = np.int_([1,2,3]					array([1,2,3])
+	
+	>> np.array([3,5,7], dtype='f')				array([3,5,7], dtype=float32)
+
+	>> c = np.arange(5, dtype=np.unit8)
+	   (c.astype(float))					array([0., 1., 2., 3., 4.])
+
+	>> (np.int8(c))						array([0, 1, 2, 3, 4], dtype=int8)
+
+	>> c = np.arange(5, dtype=np.uint8)
+	   print(c.dtype)					unit8
+
+	>> np.int8(c)						array([0, 1, 2, 3, 4], dtype=int8)
+
+	>> x = np.dtype(int)					dtype('int32')
+
+	>> np.issubdtype(x, np.integer)				True
+
+	>> np.issubdtype(x, np.floating)			False
