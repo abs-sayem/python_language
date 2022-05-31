@@ -1,0 +1,17 @@
+> Basic Building Blocks
+	>> work with strings, numbers, boolens
+	>> work with lists, sets, dictionaries
+	>> variables and functions
+	>> accepting user input
+	>> input validations with conditionals(if/else)
+	>> error handling with try/except
+	>> looping: for loop, while loop
+
+> Modularize code (Modules)
+	>> write own modules
+	>> use built-in python modules
+	** Project: Countdown App [work with datetime module]
+	>> learn about packages, PyPI and pip [comparison between packages and modules]
+	** Project: Automation with python [work with external python package, work with spreedshit]
+	>> OOP-Classes and Objects[why oop is useful]
+	** Project: API Request to GitLab [Communicating with other application over inernet by requesting to fetch some data from gitlab API]
