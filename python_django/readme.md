@@ -1,20 +1,20 @@
 ### **Python Django Framework**
-> For Web development python has frameworks, like-
+For Web development python has frameworks, like-
     * django
     * flask
-> Why flask?
+Why flask?
     * higher job opportunity
     * strong community
 
-> Environment Used--
+Environment Used--
     * Editor - Visual Studio Code
     * Packaging Tool - pipenv
 
-> Knowledge Required--
+Knowledge Required--
     * Basic Html/CSS/Javascript
     * Git/GitHub - Basic version controlling (for uploading live server like, hiroku). 
 
-> Creating a Django project...
+Creating a Django project...
     1) Django Setup:
         * Create a folder 'Django' in any directory
         * Open powershell and go to the directory
