@@ -3,3 +3,8 @@
 ###### **Note That:**
 * *In order to make a Library/Package, a special file namely "__init__.py" must be stored in the same directory. The *__init__* file can be empty.*
 * *A library may have one or more packages or sub-packages*
+
+**Library Architecture**
+* **Package1 (__init__.py, Sub-Package1, Sub-Package2)**
+*   **Sub-Package1 (__init__.py, module1, module2)**
+*   **Sub-Package2 (__init__.py, module1, module2)**
