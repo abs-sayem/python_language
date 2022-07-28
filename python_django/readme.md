@@ -1,4 +1,4 @@
 ### **Python Django Framework**
-For Web development python has frameworks, like-
+> For Web development python has frameworks, like-
     * django
     * flask
