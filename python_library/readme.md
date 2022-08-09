@@ -12,6 +12,6 @@
 
 **Make Packages**
 ###### **To consider all of these as library we need to include then in the site packages. And then we can import and use then as library. How to do for that-**
-* **Find the site_package fdirectory:** Find the site_package path using folloing command
-> import sys<br>print(sys.path)
+* **Find the site_package directory:** Find the site_package path using folloing command
+> ```   	import sys<br>print(sys.path)```
 * **Copy the package folder(with the sub-folders) and paste them at site_package**
