@@ -2,7 +2,7 @@
 
 **Elements of Python Language**
 | Topics           | Elements                           |
-|:                  |:                                  |
+|:-----------------|:-----------------------------------|
 
 
 Elements of Python Language-
