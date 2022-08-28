@@ -3,6 +3,7 @@
 **Elements of Python Language**
 | Topics           | Elements                           |
 |:-----------------|:-----------------------------------|
+| Python OOP | Concepts of Class<br> Basics of OPP|
 
 
 Elements of Python Language-
