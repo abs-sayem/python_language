@@ -10,6 +10,6 @@
 | **Python Django** | >hello_world<br> >file_drop<br> >templete_test | *https://github.com/abs-sayem/python_language/tree/main/python_django* |
 | **Python Library** | >AbsCv<br> >AbsNlp | *https://github.com/abs-sayem/python_language/tree/main/python_library* |
 | **Python Play** | >notifier | *https://github.com/abs-sayem/python_language/tree/main/python_play* |
-| **Python Problem Solving** | >3n+1 Problem | *https://github.com/abs-sayem/python_language/tree/main/python_problem_solving* |
+| **Python Problem Solving** | >3n+1_problem | *https://github.com/abs-sayem/python_language/tree/main/python_problem_solving* |
 | **Python Random Projects** | >age_calculator<br> >collatz_conjecture<br> >fibonacci | *https://github.com/abs-sayem/python_language/tree/main/python_random_projects* |
 | **Python Tutorial** | >12_python_projects<br> >150_python_exercoses<br> >python_by_nana | *https://github.com/abs-sayem/python_language/tree/main/python_tutorial* |
