@@ -1,9 +1,9 @@
 ### **Python Language**
 
 **Elements of Python Language**
-| Topics           | Elements                           |
-|:-----------------|:-----------------------------------|
-| Python OOP | Concepts of Class<br> Basics of OPP|
+| Python OOP | Python Basic | Python Django | Python Library |
+|:-----------|:-------------|:--------------|:---------------|
+| Concepts of Class<br> Basics of OPP | Python Algorithm<br> Python Array<br> Python Numpy<br> Python RegEx<br> Python String| Projects of Django | Python CV<br> Python NLP |
 
 
 Elements of Python Language-
