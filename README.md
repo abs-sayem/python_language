@@ -12,4 +12,4 @@
 | **Python Play** | >notifier | *https://github.com/abs-sayem/python_language/tree/main/python_play* |
 | **Python Problem Solving** | >3n+1 Problem | *https://github.com/abs-sayem/python_language/tree/main/python_problem_solving* |
 | **Python Random Projects** | >age_calculator<br> >collatz_conjecture<br> >fibonacci | *https://github.com/abs-sayem/python_language/tree/main/python_random_projects* |
-| **Python Tutorial** | >12_Python_Projects<br> >150_Python_Exercoses<br> >Python_by_Nana | *https://github.com/abs-sayem/python_language/tree/main/python_tutorial* |
+| **Python Tutorial** | >12_python_projects<br> >150_python_exercoses<br> >python_by_nana | *https://github.com/abs-sayem/python_language/tree/main/python_tutorial* |
