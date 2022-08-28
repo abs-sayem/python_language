@@ -1,4 +1,16 @@
 ### **Python Language**
+
+**Elements of Python Language**
+| Python OOP            |
+Python Basic                                |
+Python Django                                                   |
+Python Library                                                                      |
+|:                      |
+:                                           |
+:                                                               |
+:                                                                                   |
+
+
 Elements of Python Language-
 #### **Python OOP**
 * Concepts of Class
