@@ -5,10 +5,11 @@
 
 | Subjects | Topics | Description |
 |:---------|:-------|:------------|
-| **Python OOP** | >Concepts of Class<br> >Basics of OOP | *https://github.com/abs-sayem/python_language/tree/main/python_OOP* |
-| **Python Basic** | >Python Algorithm<br> >Python Array<br> >Python Numpy<br> >Python RegEx<br> >Python String| *https://github.com/abs-sayem/python_language/tree/main/python_basic* |
-| **Python Django** | >Projects of Django | *https://github.com/abs-sayem/python_language/tree/main/python_django* |
-| **Python Library** | >Python CV<br> >Python NLP | *https://github.com/abs-sayem/python_language/tree/main/python_library* |
-| **Python Play** | >Various Small Python Projects | *https://github.com/abs-sayem/python_language/tree/main/python_play* |
+| **Python OOP** | >class_instance<br> >python_oop_basic | *https://github.com/abs-sayem/python_language/tree/main/python_OOP* |
+| **Python Basic** | >python_basics<br> >python_algorithm<br> >python_array<br> >python_numpy<br> >python_regex<br> >python_string_re| *https://github.com/abs-sayem/python_language/tree/main/python_basic* |
+| **Python Django** | >helloworld<br> >filedrop<br> >templete_test | *https://github.com/abs-sayem/python_language/tree/main/python_django* |
+| **Python Library** | >AbsCv<br> >AbsNlp | *https://github.com/abs-sayem/python_language/tree/main/python_library* |
+| **Python Play** | >notifier | *https://github.com/abs-sayem/python_language/tree/main/python_play* |
 | **Python Problem Solving** | >3n+1 Problem | *https://github.com/abs-sayem/python_language/tree/main/python_problem_solving* |
-| **Python Tutorial** | >Knowlwdge I Gathered | *https://github.com/abs-sayem/python_language/tree/main/python_tutorial* |
+| **Python Random Projects** | >age_calculator<br> >collatz_conjecture<br> >fibonacci | *https://github.com/abs-sayem/python_language/tree/main/python_random_projects* |
+| **Python Tutorial** | >12_Python_Projects<br> >150_Python_Exercoses<br> >Python_by_Nana | *https://github.com/abs-sayem/python_language/tree/main/python_tutorial* |
