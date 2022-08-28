@@ -7,7 +7,7 @@
 |:---------|:-------|:------------|
 | **Python OOP** | >class_instance<br> >python_oop_basic | *https://github.com/abs-sayem/python_language/tree/main/python_OOP* |
 | **Python Basic** | >python_basics<br> >python_algorithm<br> >python_array<br> >python_numpy<br> >python_regex<br> >python_string_re| *https://github.com/abs-sayem/python_language/tree/main/python_basic* |
-| **Python Django** | >helloworld<br> >filedrop<br> >templete_test | *https://github.com/abs-sayem/python_language/tree/main/python_django* |
+| **Python Django** | >hello_world<br> >file_drop<br> >templete_test | *https://github.com/abs-sayem/python_language/tree/main/python_django* |
 | **Python Library** | >AbsCv<br> >AbsNlp | *https://github.com/abs-sayem/python_language/tree/main/python_library* |
 | **Python Play** | >notifier | *https://github.com/abs-sayem/python_language/tree/main/python_play* |
 | **Python Problem Solving** | >3n+1 Problem | *https://github.com/abs-sayem/python_language/tree/main/python_problem_solving* |
