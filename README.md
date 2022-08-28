@@ -3,7 +3,7 @@
 **Elements of Python Language**
 | Subjects | Topics | Description |
 |:---------|:-------|:------------|
-| Python OOP | Concepts of Class<br> Basics of OOP | https://github.com/abs-sayem/python_language/tree/main/python_OOP |
+| Python OOP | >Concepts of Class<br> >Basics of OOP | https://github.com/abs-sayem/python_language/tree/main/python_OOP |
 
 
 Elements of Python Language-
