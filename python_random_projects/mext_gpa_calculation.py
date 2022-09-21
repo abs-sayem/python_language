@@ -37,7 +37,11 @@ courses = int(input("Enter the number of 3-credit courses: "))
 #print(courses)
 # Chose number based or grade based
 print("Choose your prefered type:\n\t1) Number\n\t2) Grade")
-type = int(input("What type you want to provide: "))
+type = int(input("What type of input you want to provide: "))
 
-if(type == 1): print(type)
-else: print(type)
+if(type == 1):
+    grades = getGrades()
+    courseGrade()
+else:
+    courses = getNumbers()
+    courseNumber()
