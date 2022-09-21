@@ -1,12 +1,13 @@
 import kivy
-kivy.require('2.0.0')
-from kivymd.app import App
-from kivymd.uix.label import Label
+#kivy.require('2.0.0')
+from kivy.app import App
+from kivy.uix.label import Label
+from kivy.uix.boxlayout import BoxLayout
 
 class MextEGPA(App):
     def build(self):
         #return super().build()
-        return(Label(text="MextEquavalentGPA"))
+        return(BoxLayout())
 
 mext_egpa = MextEGPA()
 mext_egpa.run()
