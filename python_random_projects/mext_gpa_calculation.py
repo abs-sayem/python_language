@@ -1,14 +1,14 @@
 # Take the course numbers:
 import numbers
 
-
+# Take the course numbers:
 def getNumbers(courses):
     course_numbers = []
     for i in range(courses):
         course_numbers.append(float(input(f"Enter course {i} number: ")))
     return(course_numbers)
 
-# Take the course numbers:
+# Take the course grades:
 def getGrades(courses):
     course_grades = []
     for i in range(courses):
@@ -41,7 +41,7 @@ no_courses = int(input("Enter the number of 3-credit courses: "))
 # Chose number based or grade based
 print("Choose your prefered type:\n\t1) Grade\n\t2) Number")
 type = int(input("What type of input you want to provide: "))
-
+# Call the input taking modules
 if(type == 1):
     grades = getGrades(no_courses)
     courseGrade(grades)
