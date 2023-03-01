@@ -1,0 +1,123 @@
+Numpy: is the fundemental package for scientific computing-
+-----
+	- multidimensional array object, derived objects(masked arrays, matrics)
+	- fast operations on arrays, includes - mathematical/logical/shape manipulation, sorting, selecting, I/O, linear algebra, statistical operations, random similation
+
+Import Numpy: import numpy as np
+------------
+
+Numpy Array:
+-----------
+	np.array([1,2,3])           - 1D array
+	np.array([(1,2,3),(4,5,6)]) - 2D array
+	np.arange(start,stop,step)  - range array
+
+Numpy Placeholders:
+------------------
+	np.linspace(0,2,9)      - add evenly spaced values between interval to array_of_length
+	np.zeros((1,2))         - create an array filled with zeros
+	np.ones((1,2))          - create an array filled with ones
+	np.random.random((5,5)) - create an array filled with random values
+	np.empty((2,2))         - create an empty array
+
+Numpy Array Operations:
+----------------------
+	array.shape        - dimensions(rows,columns)
+	len(array)         - length of array
+	array.ndim         - number of dimensions in array
+	array.dtype        - data type
+	array.astype(type) - converts to data type
+	type(array)	   - type of array
+
+Numpy Array Manipulation:
+------------------------
+	Coping/Sorting:
+	--------------
+		np.copy(array)       - creates a copy of array
+		other = array.copy() - creates a deep copy of array
+		array.sort()         - sorts an array
+		array.sort(axis=0)   - sorts axis of array
+
+	Adding/Removing Elements:
+	------------------------
+		np.append(a,b)            - appends item to array
+		np.insert(array,1,2,axis) - insert items into array at axis 0 or 1
+		np.resize((2,4))	  - resize array to shape(2,4)
+		np.delete(array,1,axis)   - deletes items from array
+
+	Combining Arrays:
+	----------------
+		np.concatenate((a,b),axis=0) - concatenates two arrays, adds to the end
+		np.vstack((a,b))	     - stack array row-wise
+		np.hstack((a,b))	     - stack array column-wise
+
+	Splitting Arrays:
+	----------------
+		numpy.split()		- split an arrays into multiple sub-arrays
+		np.array_split(array,3) - split an array in sub-arrays of (nearly) identical size
+		numpy.hsplit(array,3)   - split the array horizontally at 3rd index
+
+	Others:
+	------
+		other = ndarray.flatten()	- flattens a 2D array to 1D
+		array = np.transpose(other) or	- transpose array
+		array.T
+		inverse = np.linalg.inv(matrix) - inverse of a given matrix
+
+Numpy Mathematics:
+-----------------
+	Operations:
+	----------
+		np.add(x,y) 		= x+y	- addition
+		np.subtraction(x,y)	= x-y	- subtraction
+		np.divide(x,y)		= x/y	- division
+		np.multiply(x,y)	= x*y	- multiplication
+		np.sqrt(x)			- square root
+		np.sin(x)			- element-wise sine
+		np.cos(x)			- element-wise cosine
+		np.log(x)			- element-wise natural log
+		np.dot(x,y)			- dot product
+		np.roots([1,0,-4])		- roots of given polynomial coefficients
+
+	Comparison:
+	----------
+		==	equal
+		!=	not equal
+		<	smaller than
+		>	greater than
+		<=	smaller than or equal
+		>=	greater than or equal
+		np.array_equal(x,y)	- array-wise comparison
+
+	Basic Statistics:
+	----------------
+		np.mean(array)		- mean
+		np.median(array)	- median
+		array.corrcoef()	- correlation coefficient
+		np.std(array)		- standard deviation
+	
+	Others:
+	------
+		array.sum()		- array-wise sum
+		array.min()		- array-wise minimum value
+		array.max(axis=0)	- maximum value of specified axis
+		array.cumsum(axis=0)	- comulative sum of specific axis
+
+Numpy Array Slicing and Subsetting:
+----------------------------------
+	array[i]		- index[i] of a 1D array
+	array[i,j]		- index[i][j] of a 2D array
+	array[i<4]		- boolean indexing
+	array[0:3]		- select items of index 0, 1 and 2
+	array[0:2,1]		- select items of rows 0 and 1 at column 1
+	array[:1]		- select items of row 0	(equals- array[0:1, :])
+	array[1:2, :]		- select items of row 1
+	[comment]: <> (		- array[1,...]
+	array[::-1]		- reverses array
+
+Numpy Iporting/Exporting:
+------------------------
+	np.loadtxt('file_name.txt')			- from a text file
+	np.genfromtxt('file_name.csv',delimiter=',')	- from a csv file
+	np.savetxt('file_name.txt',arr,delimiter='')	- writes to a text file
+	np.savetxt('file_name.csv',arr,delimiter=',')	- writes to csv file
