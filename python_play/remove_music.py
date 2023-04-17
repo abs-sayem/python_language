@@ -1,32 +1,46 @@
+from moviepy.editor import VideoFileClip
+from tkinter.filedialog import *
 
-# def remove_bgmusic_from_audio(audio_file):
-#     from pydub import AudioSegment
-#     from pydub.playback import play
+def convert_to_mp3(video_file):
+    demo_file = VideoFileClip(video_file)
+    audio_file = demo_file.audio
+    audio_file.write_audiofile(f"new_file.mp3")
 
-#     # Read and get the two mono file from audio
-#     sound_stereo = AudioSegment.from_file(audio_file, format=&quot; mp3&quot;)
-#     sound_monoL = sound_stereo.split_to_mono()[0]
-#     sound_monoR = sound_stereo.split_to_mono()[1]
+def remove_bgmusic_from_audio(audio_file):
+    from moviepy.editor import AudioFileClip
 
-#     # Invert phase of the Right audio file
-#     sound_monoR_inv = sound_monoR.invert_phase()
+    # Remove background music
+    print("\n[INFO] Removing audio...")
+    final_audio_file = AudioFileClip(audio_file).without_audio()
 
-#     # Merge two L and R_inv files, this cancels out the centers
-#     sound_CentersOut = sound_monoL.overlay(sound_monoR_inv)
-
-#     # Export merged audio file
-#     fh = sound_CentersOut.export(&quot; audio_without_music.mp3&quot;, format=&quot; mp3&quot;)
+    # Export merged audio file
+    print("\n[INFO] Writing final video file...")
+    final_audio_file.write_audiofile("bgmusic_removed_audio.mp3")
+    # # Return the video file
+    # return(final_video_file)
 
 def remove_bgmusic_from_video(video_file):
     import moviepy
     from moviepy.editor import VideoFileClip
 
-    # Read the audio file
-    video_file = input("video_file_name:")
-
     # Remove background music
+    print("\n[INFO] Removing audio...")
     final_video_file = VideoFileClip(video_file).without_audio()
 
     # Export merged audio file
-    final_video_file.write_videofile(f"new_{video_file}")
-    
+    print("\n[INFO] Writing final video file...")
+    final_video_file.write_videofile("bgmusic_removed_video.mp4")
+    # # Return the video file
+    # return(final_video_file)
+
+def only_vocals(music_file):
+    # install spleeter - <pip install spleeter>
+    from spleeter.separator import Separator
+    from tensorflow import signal
+    seperator = Separator()
+    seperator.separate(music_file)
+
+# Read the file
+#file = askopenfilename()
+only_vocals("new_file.mp3")
+#remove_bgmusic_from_video(video_file)
