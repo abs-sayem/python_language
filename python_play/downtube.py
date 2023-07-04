@@ -27,3 +27,5 @@ for url in playlist:
     
     except Exception as e:
         print(f"An error occurred while downloading the video: {e}")
+
+## [NB] Age restriction issue
