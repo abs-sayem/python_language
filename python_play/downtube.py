@@ -1,12 +1,29 @@
 # pip install pytube
-import pytube
+import os
+from pytube import YouTube, Playlist
 
-# Give the url of the video
-url = input("Give the url: ")
-print("Downloading....")
+full_path = os.path.abspath(".")
+playlist_url = input("Enter the playlist link: ")
 
-# Specify the stroge of the video
-path = "C:/Users/AbsSayem/Downloads/downtube/"
+playlist = Playlist(playlist_url)
+path = os.path.join(full_path, playlist.title)
 
-# Download the video
-pytube.YouTube(url).streams.get_highest_resolution().download(path)
+if not os.path.isdir(path): os.mkdir(path)
+
+# Dive into the playlist
+for url in playlist:
+    try:
+        video = YouTube(url)
+        print(f"[+] Downloading: {video.title} ...")
+        # Check whether the file already exists
+        video_path = os.path.join(path, f"{video.title}.mp4")
+        if os.path.isfile(video_path):
+            print("Video already exists. Skipping ...")
+            continue
+        # Download the video
+        stream = video.streams.get_highest_resolution()
+        stream.download(output_path=path)
+        print("[+] Downloaded successfully!")
+    
+    except Exception as e:
+        print(f"An error occurred while downloading the video: {e}")
