@@ -17,7 +17,7 @@ import math
 #elements = input("Enter comma seperated elements:")
 #target = int(input("Enter the target value:"))
 seperated_list = [5,50,15,1,900,190,12,75,111,34,89,90]
-target = 67
+target = 12
 
 # Split the elements and make an array
 #seperated_list = elements.split(",")    # Splited elements by comma
@@ -26,12 +26,14 @@ print(f"The sorted list: {the_list}")
 
 
 # Define the jump search module
-def jump_search(the_list,target):
+def jump_search(the_list, target):
     #list_length = len(the_list)
-    step_size = math.ceil((len(the_list)/6.67616402))     #ln(len(the_list))
+    step_size = math.ceil(len(the_list)/6.67616402)     #ln(len(the_list))
+    print(step_size)
     #count = 0
     lbound = 0
     ubound = ((lbound+step_size)-1)
+    print(ubound)
     if(ubound > len(the_list)): ubound = ubound
     else: ubound = len(the_list)
     #print(f"Lower Bound: {lbound}\nUpper Bound: {ubound}")
@@ -51,4 +53,4 @@ def jump_search(the_list,target):
     print(lbound)
             
 
-jump_search(the_list,target)           
+jump_search(the_list, target)           

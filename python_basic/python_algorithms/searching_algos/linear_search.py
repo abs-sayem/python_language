@@ -10,8 +10,8 @@
 from itertools import count
 
 
-elements = input("Enter comma seperated elements:")
-target = int(input("Enter the target value:"))
+elements = input("Enter comma seperated elements: ")
+target = int(input("Enter the target value: "))
 
 # Split the elements and make an array
 seperated_list = elements.split(",")    # Splited elements by comma
@@ -22,7 +22,7 @@ the_list = [int(i) for i in seperated_list] # Make a list of int
 def linear_search(the_list,target):
     for i in range(len(the_list)):
         count=0
-        if(target==the_list[i]): print(f"The position of the item {target} is {i}"); return(count+1); break  
+        if(target==the_list[i]): print(f"{target} is {i+1} no item"); return(count+1); break
 # Call the function
 result = linear_search(the_list,target)
-if(result!=1): print("The item isn't in the list")
+if(result!=1): print(f"'{target}' isn't in the list")
