@@ -23,10 +23,11 @@ def rename_photos(directory, naming_convention):
         os.rename(old_file, new_file)
         # Increment the counter
         counter += 1
-    print(f"({skip_count} skipped) [Renaming completed]")
+    print(f"  ({counter}) Renamed, ({skip_count}) Skipped")
 
 # Usage
-directory_path = "C:/Users/AbsSayem/Desktop/wallpaper/windows/"  # Replace with the path to your photos
-naming_convention = "windows"  # Replace with your desired naming convention
-print("Renaming ... ", end='')
+directory_path = "G:/wallpaper/lock_screen"  # Replace with the path to your photos
+naming_convention = "lock_screen"  # Replace with your desired naming convention
+print(f"> Renaming ... ")
 rename_photos(directory_path, naming_convention)
+print(f"  [Rename Completed]")
