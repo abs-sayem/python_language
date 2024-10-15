@@ -4,27 +4,9 @@ def rename_photos(directory, naming_convention):
     # List all files in the given directory
     files = os.listdir(directory)    
     # Initialize a counter for naming convention
-    counter, counter_x = 0
-    skip_count, skip_count_x = 0
+    counter = 0
+    skip_count = 0
     # Iterate over all files in the directory   [With a extra character]
-    for filename in files:
-        # Split the file name into name and extension
-        name, ext = os.path.splitext(filename)
-        # Define the new name using the naming convention and counter
-        new_name = f"{naming_convention}x_{counter_x}{ext}"        
-        # Create the full path for the old and new files
-        old_file = os.path.join(directory, filename)
-        new_file = os.path.join(directory, new_name)        
-        # Check if the new file name already exists
-        if os.path.exists(new_file):
-            skip_count_x += 1
-            continue
-        # Rename the file
-        os.rename(old_file, new_file)
-        # Increment the counter
-        counter_x += 1
-    
-    # [Final Naming]
     for filename in files:
         # Split the file name into name and extension
         name, ext = os.path.splitext(filename)
