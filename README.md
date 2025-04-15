@@ -18,6 +18,6 @@
 ### **Real Python**
 ***
 
-**bpython** - better python terminal than official.
+1. **bpython** - better python terminal than official.
 
-**[PEP8 Python Style Guide](https://pep8.org/)** - Unofficial PEP8 style guide website but better than the official website. It is more readable than original one.
+2. **[PEP8 Python Style Guide](https://pep8.org/)** - Unofficial PEP8 style guide website but better than the official website. It is more readable than original one.
