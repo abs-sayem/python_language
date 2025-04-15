@@ -18,6 +18,6 @@
 ### **Real Python**
 ***
 
-1. **bpython** - better python terminal than official.
+1. **[bpython](https://bpython-interpreter.org/)** - A fancy interface to the Python interpreter for Linux, BSD, macOS and Windows. Better python terminal than official.
 
 2. **[PEP8 Python Style Guide](https://pep8.org/)** - Unofficial PEP8 style guide website but better than the official website. It is more readable than original one.
