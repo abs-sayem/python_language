@@ -13,3 +13,10 @@
 | **Python Problem Solving** | >3n+1_problem | *https://github.com/abs-sayem/python_language/tree/main/python_problem_solving* |
 | **Python Random Projects** | >age_calculator<br> >collatz_conjecture<br> >fibonacci | *https://github.com/abs-sayem/python_language/tree/main/python_random_projects* |
 | **Python Tutorial** | >12_python_projects<br> >150_python_exercoses<br> >python_by_nana | *https://github.com/abs-sayem/python_language/tree/main/python_tutorial* |
+
+
+### **Real Python**
+
+**bpython** - better python terminal than official.
+
+**[PEP8 Python Style Guide](https://pep8.org/)** - Unofficial PEP8 style guide website but better than the official website. It is more readable than original one.
