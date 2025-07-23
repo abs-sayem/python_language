@@ -1,11 +1,11 @@
-**Week 01: Introduction to Programming and Python**
+# **Week 01: Introduction to Programming and Python**
 
 ---
 
 ### Slide 01: Course Introduction
 
 * **Course Title**: Introduction to Python Programming for Civil Engineers
-* **Instructor**: \[Your Name]
+* **Instructor**: \[Md Abu Bakar Siddiq Sayem]
 * **Week 1 Topic**: Introduction to Programming and Python
 * **Objective**: Understand the basics of programming and how Python fits into civil engineering applications.
 
@@ -126,7 +126,7 @@ print("Division:", a / b)
 
 ---
 
-### Slide 13: Q\&A
+### Slide 13: Q\&A?
 
 * Any questions?
 * My experience with Python programming!
