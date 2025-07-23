@@ -1,8 +1,8 @@
-**Week 02: Control Structures in Python**
+# **Week 02: Control Structures in Python**
 
 ---
 
-### Slide 01: Week 2 Overview
+### Slide 01: Overview
 
 * **Topic**: Control Structures
 * **Focus**: Making decisions and repeating tasks in code
@@ -18,7 +18,7 @@
 
 ---
 
-### Slide 03: if Statement
+### Slide 03: `if` Statement
 
 ```python
 x = 10
@@ -30,7 +30,7 @@ if x > 5:
 
 ---
 
-### Slide 04: if-else Statement
+### Slide 04: `if-else` Statement
 
 ```python
 x = 3
@@ -44,7 +44,7 @@ else:
 
 ---
 
-### Slide 05: elif Statement
+### Slide 05: `elif` Statement
 
 ```python
 x = 5
@@ -76,7 +76,7 @@ if age > 18 and age < 60:
 
 ---
 
-### Slide 07: while Loop
+### Slide 07: `while` Loop
 
 ```python
 i = 1
@@ -89,7 +89,7 @@ while i <= 5:
 
 ---
 
-### Slide 08: for Loop
+### Slide 08: `for` Loop
 
 ```python
 for i in range(1, 6):
@@ -100,7 +100,7 @@ for i in range(1, 6):
 
 ---
 
-### Slide 09: break and continue
+### Slide 09: `break` and `continue`
 
 ```python
 for i in range(1, 10):
@@ -130,7 +130,7 @@ else:
 
 ---
 
-### Slide 11: Week 2 Lab Tasks
+### Slide 11: Lab Tasks
 
 * Write programs using `if`, `elif`, and `else`
 * Use loops to print number patterns or sequences
