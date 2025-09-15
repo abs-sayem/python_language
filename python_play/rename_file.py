@@ -26,8 +26,8 @@ def rename_photos(directory, naming_convention):
     print(f"Renamed-{counter}, Skipped-{skip_count}")
 
 # Usage
-directory_path = "D:/wallpaper/windows/"  # Replace with the path to your photos
-naming_convention = "windows"  # Replace with your desired naming convention
+directory_path = "D:/wallpaper/lock_screen/"  # Replace with the path to your photos
+naming_convention = "lockscreen"  # Replace with your desired naming convention
 print(f"> Renaming ... ", end='')
 rename_photos(directory_path, naming_convention)
 print(f"> Rename Completed")
